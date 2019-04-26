@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="192.168.1.221" showDifferentInSync="false" showNewOnSourceInSync="false">
+  <component name="PublishConfigData" serverName="192.168.1.221" showEqualInSync="true" showNewOnSourceInSync="false" showNewOnTargetInSync="false" showExcludedInSync="true">
     <serverData>
       <paths name="192.168.1.221">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/webpy" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/usr/local/bin" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>

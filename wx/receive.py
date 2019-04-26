@@ -1,12 +1,7 @@
-#!/usr/bin/env python
-#-*- coding:utf-8 -*-
-# author:BOB-Y
-# datetime:2019/4/19 17:17
-# software: PyCharm
-
 # -*- coding: utf-8 -*-
 # filename: receive.py
 import xml.etree.ElementTree as ET
+
 
 def parse_xml(web_data):
     if len(web_data) == 0:
