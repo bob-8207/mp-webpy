@@ -22,9 +22,9 @@ class DBmysql(object):
         except:
             raise Exception("DataBase connect error,please check the db config!!!")
     def close(self):
-        if not self.conn:
-            self.conn.commit()
-            self.cur.close()
-            self.conn.close()
-        else:
-            raise Exception("DataBase doesn't connect,close connectiong error;please check the db config!!!")
+#      if not self.conn:
+        self.conn.commit()
+        self.cur.close()
+        self.conn.close()
+#       else:
+#            raise Exception("DataBase doesn't connect,close connectiong error;please check the db config!!!")

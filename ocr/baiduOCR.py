@@ -12,11 +12,7 @@ from aip import AipOcr
 APP_ID = '16117088'
 API_KEY = 'BD75u2GtZXoOjQXIGipIG2po'
 SECRET_KEY = 'XIhhOjZVdKGbXjGTYQWEfrlOcZM7uqWV'
-
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
-
-
-
 
 """ 读取图片 """
 class Picocr(object):
