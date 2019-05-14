@@ -36,38 +36,87 @@ if __name__ == '__main__':
         "button":
         [
             {
-                "type": "click",
-                "name": "我的车事",
-                "key":  "mpGuide"
-            },
-            {
-                "name": "柴语油言",
+                "name": "【柴】",
                 "sub_button":
                 [
                     {
                         "type": "view",
-                        "name": "更新公告",
+                        "name": "消息通知",
+                        "url": "http://6666.natappvip.cc/"
+                    },
+                    {
+                        "type": "view",
+                        "name": "企业信息上传",
                         "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
                     },
                     {
                         "type": "view",
-                        "name": "接口权限说明",
+                        "name": "省油措施",
                         "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
                     },
                     {
                         "type": "view",
-                        "name": "返回码说明",
-                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1433747234&token=&lang=zh_CN"
+                        "name": "成就排行",
+                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
                     }
                 ]
             },
             {
-                "type": "click",
-                "name": "驾驶成就",
-                "key": "mpGuide"
+                "name": "【事】",
+                "sub_button":
+                [
+                    {
+                        "type": "view",
+                        "name": "考核培训",
+                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
+                    },
+                    {
+                        "type": "view",
+                        "name": "接单系统",
+                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
+                    },
+                    {
+                        "type": "pic_photo_or_album", 
+                        "name": "考核记录", 
+                        "key": "rselfmenu_0_0", 
+                        "sub_button": [ ]
+                    } 
+                ]
+            },
+           {
+                "name": "【服】",
+                "sub_button":
+                [
+                    {
+                        "type": "view",
+                        "name": "政策宣讲",
+                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
+                    },
+                    {
+                        "type": "view",
+                        "name": "在线客服",
+                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
+                    },
+                    {
+                        "type": "view",
+                        "name": "微社区",
+                        "url": "http://www.fancytech.ai"
+                    },
+                    {
+                        "type": "view",
+                        "name": "最优惠",
+                        "url": "https://www.163.com"
+                    },
+                    {
+                        "type": "view",
+                        "name": "我的",
+                        "url": "http://wx.fancytech.ai:8091"
+                    }
+                ]
             }
           ]
     }
+    
     """
     accessToken = Basic().get_access_token()
     #myMenu.delete(accessToken)
