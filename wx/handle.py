@@ -14,8 +14,8 @@ class Handle(object):
             print "Handle Post webdata is ", webData   #后台打日志
             recMsg = receive.parse_xml(webData)
             myMedia = Media()
-            print recMsg
-            print recMsg.MsgType
+            #print recMsg
+            #print recMsg.MsgType
             if isinstance(recMsg, receive.Event ):
                 toUser = recMsg.FromUserName
                 fromUser = recMsg.ToUserName
@@ -29,9 +29,14 @@ class Handle(object):
                 toUser = recMsg.FromUserName
                 fromUser = recMsg.ToUserName
                 if recMsg.MsgType == 'text':
-                    print "反馈文字信息成功！！！！！！！！！"
-                    content =  "Hi, Can I help you ? /::,@"
+                    Content = recMsg.Content
+                    print Content
+                    if Content == '111':
+                        content = "别浪费流量，乱发消息！/:wipe"
+                    else:
+                        content =  "Hi, Can I help you ? /::,@"
                     replyMsg = reply.TextMsg(toUser, fromUser, content)
+                    print "反馈文字信息成功！！！！！！！！！"
                     return replyMsg.send()
                 if recMsg.MsgType == 'image':
                     content = "图片已经接收...Thanks♪(･ω･)ﾉ"

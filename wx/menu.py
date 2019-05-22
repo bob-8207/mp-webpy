@@ -36,33 +36,33 @@ if __name__ == '__main__':
         "button":
         [
             {
-                "name": "【柴】",
+                "name": "【资讯】",
                 "sub_button":
                 [
                     {
                         "type": "view",
-                        "name": "消息通知",
+                        "name": "政策法规",
                         "url": "http://6666.natappvip.cc/"
                     },
                     {
                         "type": "view",
-                        "name": "企业信息上传",
-                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
+                        "name": "减油措施",
+                        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4MTE2MTM5Mg==&tempkey=MTAwOV9xa3laVFJZakFYY1B4dFJjRGRxS1BOeHJXd24xc3phNU5QVUppQ05nYVY4T3BKRnEyZmJVYUdGRFlIQUJLWnVvcnVFVFdES21GMF9RYi1BMzU1ZHdYQWxCTG1RSi1XNkl6ZGJPNkRiazZYU1prLXZnSkFmUHk5bU9xWUNacFVSbmJ3Mm9Kbi1SQmNJa1pULTByZGN0Z3o3OFpJMkNjM0J5Y1hqUkRRfn4%3D&chksm=4f6b64cc781ceddaf152676dfb60e91c0a0a99e693607116294d22537c18168f4edd7a99e728##"
+                    },
+                    {
+                        "type": "view_limited",
+                        "name": "新闻报导",
+                        "media_id": "QrBLM_chUEA-NCVqiPCL6XT2x1NaKwpjoS0QE32ogjc"
                     },
                     {
                         "type": "view",
-                        "name": "省油措施",
-                        "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
-                    },
-                    {
-                        "type": "view",
-                        "name": "成就排行",
+                        "name": "减油排行",
                         "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
                     }
                 ]
             },
             {
-                "name": "【事】",
+                "name": "【核查】",
                 "sub_button":
                 [
                     {
@@ -80,11 +80,17 @@ if __name__ == '__main__':
                         "name": "考核记录", 
                         "key": "rselfmenu_0_0", 
                         "sub_button": [ ]
+                    },
+                    {
+                        "name": "考勤定位", 
+                        "type": "location_select", 
+                        "key": "rselfmenu_0_1", 
+                        "sub_button": [ ]
                     } 
                 ]
             },
            {
-                "name": "【服】",
+                "name": "【服务】",
                 "sub_button":
                 [
                     {
